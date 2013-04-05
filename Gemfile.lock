@@ -47,6 +47,7 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     diff-lcs (1.2.2)
+    dynamic_form (1.1.4)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -143,6 +144,7 @@ PLATFORMS
 DEPENDENCIES
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.2)
+  dynamic_form (= 1.1.4)
   execjs
   jquery-rails (~> 2.0.2)
   rails (~> 3.2)
