@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"notice"
+			],
+			[
 				"click_",
 				"click_link"
 			],
@@ -27,19 +31,11 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/assets/stylesheets/application.css",
-			"settings":
-			{
-				"buffer_size": 2319,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 252.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -51,20 +47,36 @@
 				"Set Syntax: SQL"
 			],
 			[
-				"Snippet: ",
-				"Snippet: ERB tags"
+				"syn cu",
+				"Set Syntax: Cucumber Steps"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"Snippet: link",
-				"Snippet: link_to (path)"
+				"syn rspec",
+				"Set Syntax: RSpec"
+			],
+			[
+				"syntax cu",
+				"Set Syntax: Cucumber Steps"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"mini",
 				"View: Toggle Minimap"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ERB tags"
+			],
+			[
+				"Snippet: link",
+				"Snippet: link_to (path)"
 			],
 			[
 				"togg",
@@ -83,15 +95,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"packa insta",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 435.0
+		"width": 486.0
 	},
 	"console":
 	{
@@ -108,28 +116,36 @@
 	},
 	"file_history":
 	[
-		"/etc/fonts/local.conf",
-		"/home/chris/Documents/Ruby/ticketee/app/assets/stylesheets/application.css",
-		"/home/chris/Documents/Ruby/ticketee/app/views/projects/new.html.erb",
-		"/home/chris/Documents/Ruby/ticketee/app/models/project.rb",
+		"/home/chris/Documents/Ruby/ticketee/spec/controllers/projects_controller_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/config/environments/production.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/projects/show.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/deleting_projects_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/controllers/projects_controller.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/projects/edit.html.erb",
 		"/home/chris/Documents/Ruby/ticketee/spec/integration/creating_projects_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/editing_projects_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/projects/index.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/Gemfile",
+		"/home/chris/Documents/Ruby/ticketee/spec/support/factories/project_factory.rb",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/viewing_projects_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/projects/_form.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/projects/new.html.erb",
+		"/home/chris/.xmonad/xmonad.hs",
+		"/home/chris/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/chris/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/chris/Documents/Ruby/ticketee/app/assets/stylesheets/application.css",
+		"/etc/fonts/local.conf",
+		"/home/chris/Documents/Ruby/ticketee/app/models/project.rb",
 		"/home/chris/Documents/Ruby/ticketee/app/views/layouts/application.html.erb",
 		"/home/chris/Documents/Ruby/ticketee/app/helpers/application_helper.rb",
-		"/home/chris/Documents/Ruby/ticketee/app/views/projects/show.html.erb",
-		"/home/chris/Documents/Ruby/ticketee/app/controllers/projects_controller.rb",
 		"/home/chris/.Xdefaults",
-		"/home/chris/Documents/Ruby/ticketee/Gemfile",
-		"/home/chris/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/chris/Documents/Ruby/ticketee/config/routes.rb",
-		"/home/chris/Documents/Ruby/ticketee/app/views/projects/index.html.erb",
-		"/home/chris/Documents/Ruby/ticketee/spec/controllers/projects_controller_spec.rb",
 		"/home/chris/Documents/Ruby/ticketee/config/database.yml",
 		"/home/chris/Documents/Ruby/ticketee/config/application.rb",
 		"/home/chris/Documents/Ruby/bacon/spec/bacon_spec.rb",
 		"/home/chris/Documents/Ruby/bacon/lib/bacon.rb",
 		"/home/chris/Documents/Ruby/example/bacon_test.rb",
 		"/home/chris/Documents/Ruby/RailsSpring2013/week2/example/example_test.rb",
-		"/home/chris/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/chris/Documents/Ruby/bacon/bacon_spec.rb",
 		"/home/chris/Documents/Ruby/example/example_test.rb"
 	],
@@ -167,37 +183,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/assets/stylesheets/application.css",
-					"settings":
-					{
-						"buffer_size": 2319,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -232,6 +219,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 206.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -243,6 +234,46 @@
 		"selected_items":
 		[
 			[
+				"projects",
+				"app/controllers/projects_controller.rb"
+			],
+			[
+				"projectsconspe",
+				"spec/controllers/projects_controller_spec.rb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"show",
+				"app/views/projects/show.html.erb"
+			],
+			[
+				"new",
+				"app/views/projects/new.html.erb"
+			],
+			[
+				"creating",
+				"spec/integration/creating_projects_spec.rb"
+			],
+			[
+				"project",
+				"app/controllers/projects_controller.rb"
+			],
+			[
+				"inde",
+				"app/views/projects/index.html.erb"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"contro",
+				"app/controllers/projects_controller.rb"
+			],
+			[
 				"sytl",
 				"app/assets/stylesheets/application.css"
 			],
@@ -253,10 +284,6 @@
 			[
 				"newhtm",
 				"app/views/projects/new.html.erb"
-			],
-			[
-				"gemfi",
-				"Gemfile"
 			],
 			[
 				"appmodelproj",
