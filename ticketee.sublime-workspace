@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Sta",
+				"Starbursts"
+			],
+			[
 				"no",
 				"notice"
 			],
@@ -43,16 +47,16 @@
 				":w - Save"
 			],
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				":q",
 				"Set Syntax: SQL"
 			],
 			[
 				"syn cu",
 				"Set Syntax: Cucumber Steps"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"syn rspec",
@@ -99,7 +103,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 486.0
+		"width": 383.0
 	},
 	"console":
 	{
@@ -116,16 +120,36 @@
 	},
 	"file_history":
 	[
+		"/home/chris/Documents/Ruby/building/app/models/tenant.rb",
+		"/home/chris/Documents/Ruby/building/app/models/property.rb",
+		"/home/chris/Documents/Ruby/building/app/models/landlord.rb",
+		"/home/chris/Documents/Ruby/building/db/migrate/20130426030020_create_properties.rb",
+		"/home/chris/Documents/Ruby/building/db/migrate/20130426025616_create_landlords.rb",
+		"/home/chris/Documents/Ruby/building/db/migrate/20130426025539_create_tenants.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/tickets/show.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/tickets/edit.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/deleting_tickets_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/controllers/tickets_controller.rb",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/editing_tickets_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/models/project.rb",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/viewing_tickets_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/projects/show.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/Gemfile",
+		"/home/chris/Documents/Ruby/ticketee/spec/integration/creating_tickets_spec.rb",
+		"/home/chris/Documents/Ruby/ticketee/spec/support/factories/ticket_factory.rb",
+		"/home/chris/Documents/Ruby/ticketee/config/routes.rb",
+		"/home/chris/Documents/Ruby/ticketee/db/migrate/20130421040340_create_tickets.rb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/tickets/new.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/app/views/tickets/_form.html.erb",
+		"/home/chris/Documents/Ruby/ticketee/app/models/ticket.rb",
 		"/home/chris/Documents/Ruby/ticketee/spec/controllers/projects_controller_spec.rb",
 		"/home/chris/Documents/Ruby/ticketee/config/environments/production.rb",
-		"/home/chris/Documents/Ruby/ticketee/app/views/projects/show.html.erb",
 		"/home/chris/Documents/Ruby/ticketee/spec/integration/deleting_projects_spec.rb",
 		"/home/chris/Documents/Ruby/ticketee/app/controllers/projects_controller.rb",
 		"/home/chris/Documents/Ruby/ticketee/app/views/projects/edit.html.erb",
 		"/home/chris/Documents/Ruby/ticketee/spec/integration/creating_projects_spec.rb",
 		"/home/chris/Documents/Ruby/ticketee/spec/integration/editing_projects_spec.rb",
 		"/home/chris/Documents/Ruby/ticketee/app/views/projects/index.html.erb",
-		"/home/chris/Documents/Ruby/ticketee/Gemfile",
 		"/home/chris/Documents/Ruby/ticketee/spec/support/factories/project_factory.rb",
 		"/home/chris/Documents/Ruby/ticketee/spec/integration/viewing_projects_spec.rb",
 		"/home/chris/Documents/Ruby/ticketee/app/views/projects/_form.html.erb",
@@ -135,11 +159,9 @@
 		"/home/chris/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/chris/Documents/Ruby/ticketee/app/assets/stylesheets/application.css",
 		"/etc/fonts/local.conf",
-		"/home/chris/Documents/Ruby/ticketee/app/models/project.rb",
 		"/home/chris/Documents/Ruby/ticketee/app/views/layouts/application.html.erb",
 		"/home/chris/Documents/Ruby/ticketee/app/helpers/application_helper.rb",
 		"/home/chris/.Xdefaults",
-		"/home/chris/Documents/Ruby/ticketee/config/routes.rb",
 		"/home/chris/Documents/Ruby/ticketee/config/database.yml",
 		"/home/chris/Documents/Ruby/ticketee/config/application.rb",
 		"/home/chris/Documents/Ruby/bacon/spec/bacon_spec.rb",
@@ -234,6 +256,62 @@
 		"selected_items":
 		[
 			[
+				"app/viewstickshow",
+				"app/views/tickets/show.html.erb"
+			],
+			[
+				"ticketcontrol",
+				"app/controllers/tickets_controller.rb"
+			],
+			[
+				"modelproj",
+				"app/models/project.rb"
+			],
+			[
+				"viewingti",
+				"spec/integration/viewing_tickets_spec.rb"
+			],
+			[
+				"appviewprojsho",
+				"app/views/projects/show.html.erb"
+			],
+			[
+				"create",
+				"spec/integration/creating_tickets_spec.rb"
+			],
+			[
+				"modtick",
+				"app/models/ticket.rb"
+			],
+			[
+				"ticket",
+				"app/controllers/tickets_controller.rb"
+			],
+			[
+				"migra",
+				"db/migrate/20130421040340_create_tickets.rb"
+			],
+			[
+				"modprojec",
+				"app/models/project.rb"
+			],
+			[
+				"tickets",
+				"app/controllers/tickets_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"show",
+				"app/views/projects/show.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
 				"projects",
 				"app/controllers/projects_controller.rb"
 			],
@@ -244,10 +322,6 @@
 			[
 				"production",
 				"config/environments/production.rb"
-			],
-			[
-				"show",
-				"app/views/projects/show.html.erb"
 			],
 			[
 				"new",
@@ -330,10 +404,6 @@
 				"config/database.yml"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"app/asset/styl",
 				"app/assets/stylesheets/application.css"
 			],
@@ -359,7 +429,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 129.0,
 	"status_bar_visible": true
 }
