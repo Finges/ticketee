@@ -1,6 +1,5 @@
 Ticketee::Application.routes.draw do
 
-  get "users/confirmation"
 
   get "/admin/users/index" 
 
