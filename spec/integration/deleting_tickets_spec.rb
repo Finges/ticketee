@@ -22,5 +22,4 @@ feature "Deleting tickets" do
 		page.should have_content("Ticket has been deleted.")
 		page.current_url.should == project_url(project)
 	end
-
 end
