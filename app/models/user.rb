@@ -11,6 +11,7 @@ class User < ActiveRecord::Base
 
   attr_accessible :email, :password, :password_confirmation
 
+  has_many :permissions
   # attr_accessible :title, :body
 
   def to_s
