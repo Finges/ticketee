@@ -12,6 +12,7 @@ gem 'dynamic_form', '1.1.4'
 
 gem 'devise', '2.1.0'
 gem 'cancan', '1.6.7'
+gem 'paperclip', '2.7.0'
 gem 'launchy'
 
 # Gems used only for assets and not required

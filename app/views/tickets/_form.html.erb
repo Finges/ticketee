@@ -1,4 +1,5 @@
-<%= form_for [@project, @ticket] do |f| %>
+<%= form_for [@project, @ticket],
+		:html => { :multipart => true } do |f| %>
 <%= f.error_messages %>
 	<p>
 		<%= f.label :title %>
@@ -8,6 +9,10 @@
 		<%= f.label :description %>
 		<%= f.text_field :description %>	
 	</p>
+	<p>
+		<%= f.label :asset, "File" %>
+		<%= f.file_field :asset %>
+	</p>
 <%= f.submit %>	
   
-<% end -%>
+<% end %>
